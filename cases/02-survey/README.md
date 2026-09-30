@@ -10,6 +10,8 @@
 
 ## Решение
 
+![Workflow автоматизации опроса](images/Survey-Automation-Workflow.png)
+
 На базе n8n реализован workflow, который:
 
 - запускается по расписанию;
