@@ -24,7 +24,7 @@
 
 ## Архитектура
 
-```text
+```
 Schedule Trigger
        |
        v
