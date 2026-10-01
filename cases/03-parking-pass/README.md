@@ -34,3 +34,37 @@ Parse Result
    |
    v
 Respond
+```
+
+
+## Технологии
+
+* n8n
+* Webhook
+* HTTP POST
+* HTTP Basic Auth
+* JavaScript
+* HTML parsing
+* QR / SVG
+* application/x-www-form-urlencoded
+
+## Результат
+
+Ручное оформление заявки заменено автоматизированным workflow:
+
+```text
+Данные пользователя
+       |
+       v
+Создание заявки
+       |
+       v
+Получение результата
+       |
+       v
+QR-код + номер заявки + ссылка
+```
+
+Отдельный frontend для этого сценария не требуется: Webhook n8n используется как точка входа, а workflow формирует готовый HTML-ответ.
+
+````
